@@ -1,0 +1,74 @@
+@media (max-width:1120px){
+  
+}
+body{
+    background-image: url(fundo.jpg) ;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+.formulario{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    text-align: center;
+    
+}
+.titulo{
+    color: rgb(245, 245, 245);
+    text-shadow: black 2px 2px 2px;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 300px;
+ }
+ label{
+   color: white;
+   background-color: black;
+   text-align: center;
+   width: 300px;
+   font-size: 22px;
+ }
+
+ button{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ input{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ .Tabela{
+   background-color: black;
+   text-align: center;
+   color: white;
+   border-style: solid;
+   border-radius: 50%;
+   width: 300px;
+   margin-top: -20px;
+ }
+
+ a{
+   text-decoration: none;
+ }
+
+
+ .container{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ }
+ .box{
+  width: 350px;
+  height: 350px;
+  background-image:url(div.webp);
+  background-size: 350px;
+ }

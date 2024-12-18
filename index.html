@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascaria - Padaria Vila Real</title>
+    <link href="estilo.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(function(){
+        $("button").click(function(){
+        alert("Cadastrado com sucesso");
+        });
+    });
+</script>
+</head>
+<img class="Logo" src="Logo.avif" width="80px" height="80px">
+<body>
+   
+<div class="container">
+<div class="box">
+    <!-- Formulario para Receber e Guardar as Informações--> 
+     <form class="formulario" action="index.php" method="POST">
+        <p class="titulo">Nome do Funcionario</p>  
+        <input type="text" id="nome"  name="funcio" placeholder="Digite o nome do Funcionario" size="28px" maxlength="23px" onsubmit=""  required onblur="letra(event)"><br><br>
+        <p class="titulo">Gasto do Funcionario </p> 
+        <input type="text" id="gasto" name="gasto" placeholder="Digite os gastos do Funcionario" size="31px" maxlength="24px"  onsubmit="" required onblur="letra(event)"><br><br>
+        <input type="hidden" id="data" name="date">
+        <button type="submit" value="Enviar" onclick="enviar()">Enviar</button>
+     </form>
+</div>
+    </div>
+     <a href="tabela.php"> <h1 class="Tabela"> Tabela de Gastos </h1></a>
+</body>
+<script src="index.js"></script>
+</html>
